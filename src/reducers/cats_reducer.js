@@ -1,6 +1,6 @@
 
 
-const catsReducer = (state = initialState, action) => {
+const catsReducer = (state = [], action) => {
   switch (action.type) {
     case 'FETCH_CATS':
       return action.cats
